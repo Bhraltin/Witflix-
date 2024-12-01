@@ -1,0 +1,129 @@
+
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+ header a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-around;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border: 1px solid black;
+  }
+  
+  .logo {
+    border: 1px solid black;
+    height: 50px;
+  }
+  
+
+  main {
+    border: 1 px solid black;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .imdb-rating, .maturity-rating, .duration {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+
+.populer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movie-card1, .movie-card2, .movie-card3 {
+    border: 1px solid black;
+    height: 100%;
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+}
+  
+
+.recommende {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movie-card4, .movie-card5, .movie-card6 {
+    border: 1px solid black;
+    height: 100%;
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer nav {
+    display: flex;
+    gap: 15px;
+}
+
+footer nav a {
+    text-decoration: none;
+}
+
+.social, .apps {
+    text-align: center;
+}
+.social img {
+    width: 40px;
+    margin: 5px;
+}
+
+.apps img {
+    width: 60px;
+    margin: 10px;
+}
+
+
+@media (max-width:768px) {
+ 
+ body {
+        display: flex;
+        flex-direction: column;
+    }
+  header.a {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+
+
+}
+  
